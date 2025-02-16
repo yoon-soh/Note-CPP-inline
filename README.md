@@ -63,6 +63,12 @@ inline int S::square(int s) // use inline prefix
 - ["A given inline member function must be declared the same way in every compilation unit. There must be exactly one definition of an inline function."](https://learn.microsoft.com/en-us/cpp/cpp/inline-functions-cpp?view=msvc-170)
 </details>
 
+<details>
+<summary>See also</summary>
+
+- ["Why do inline functions have to be defined in a header file?"](https://stackoverflow.com/questions/5057021/why-do-inline-functions-have-to-be-defined-in-a-header-file)
+</details>
+
 ## 4. Note
 
 >inline keyword is suggestion. Therefore, compiler can ignore this suggestion depending on the situation. (ex. inline function that is called recursively)
@@ -70,5 +76,5 @@ inline int S::square(int s) // use inline prefix
 <details>
 <summary>Reference</summary>
 
-["The compiler treats the inline expansion options and keywords as suggestions. There's no guarantee that functions will be inlined. You can't force the compiler to inline a particular function, even with the __forceinline keyword."](https://learn.microsoft.com/en-us/cpp/cpp/inline-functions-cpp?view=msvc-170)
+- ["The compiler treats the inline expansion options and keywords as suggestions. There's no guarantee that functions will be inlined. You can't force the compiler to inline a particular function, even with the __forceinline keyword."](https://learn.microsoft.com/en-us/cpp/cpp/inline-functions-cpp?view=msvc-170)
 </details>
